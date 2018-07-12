@@ -5,7 +5,7 @@ public class Query extends Line {
     private Date startDate;
     private Date endDate;
 
-    Query(java.lang.String serviceVariation, java.lang.String typeCategorySubcategory, String responseType, Date startDate, Date endDate) {
+    Query(String serviceVariation, String typeCategorySubcategory, String responseType, Date startDate, Date endDate) {
         super(serviceVariation, typeCategorySubcategory, responseType);
         this.startDate = startDate;
         this.endDate = endDate;
